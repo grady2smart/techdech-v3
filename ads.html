@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "cb1109a4eee55f46a0adae8170127c46",
+    "excludeDomains": [
+        "techdech.xyz"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
+        
 <script async="async" data-cfasync="false" src="ads.js"></script>
         <title>TechDech</title>
         <link rel="stylesheet" href="css/searchbar.css">
@@ -20,3 +48,6 @@
 <meta name="yandex-verification" content="0f2aab492840e1a2" />
 
 <link rel="apple-touch-icon" href="favicon.ico"/>
+        
+    </body>
+</html>
