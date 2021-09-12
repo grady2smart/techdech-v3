@@ -112,7 +112,15 @@
 			]
 		}
 	],
-	"Hacked Games": [],
+	"Other": [{
+	"name": "Tutubox",
+		"version": "1.10.8",
+		"icon": "https://github.com/techdech/techdech-v3/raw/main/img/TutuBoxIcon.png",
+		"down": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
+		"category": "Other",
+		"description": "",
+		"bundleID": "net.nerd.iNDS"
+	}],
 	"Emulators": [{
 		"name": "iNDS",
 		"version": "1.10.8",
@@ -120,6 +128,7 @@
 		"down": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
 		"category": "Emulators",
 		"description": "",
-		"bundleID": "net.nerd.iNDS"
+		"bundleID": "com.saunderstech.tutubox1"
+		"banner": "https://resources.usescarlet.com/Banners/unc0verbanner.jpg",
 	}]
 }
